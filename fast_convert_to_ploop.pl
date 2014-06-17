@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Author pavel.odintsov@gmail.com
+
 use strict;
 use warnings;
 
