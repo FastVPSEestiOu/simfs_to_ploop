@@ -9,3 +9,9 @@ perl fast_convert_to_ploop.pl
 ```
 
 If script found any overflowed by disk VE it add 1Gb of space to it.
+
+Algorithm:
+- Iterate over all runned and suspended CT
+- Stop CT if it was active
+- Convert to simfs
+- Run VE again if it was active again
