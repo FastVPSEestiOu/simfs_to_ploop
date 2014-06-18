@@ -14,4 +14,4 @@ Algorithm:
 - Iterate over all runned and suspended CT
 - Stop CT if it was active
 - Convert to ploop
-- Run VE again if it was active again
+- Run VE again, if it was active 
